@@ -53,13 +53,9 @@ This project tackles binary sentiment classification on the **Sentiment140** dat
 ```
 DL Project/
 ├── dataset/
-│   └── training.1600000.processed.noemoticon.csv   # Sentiment140 (1.6M tweets, 220 MB)
-├── report/
-│   ├── report.pdf                                   # Full academic report
-│   └── report.tex                                   # LaTeX source
-├── report_assets/
-│   ├── training_curves.png                          # Loss & accuracy plots
-│   └── confusion_matrix.png                         # Test set confusion matrix
+│   └── training.1600000.processed.noemoticon.csv    # Sentiment140 (1.6M tweets, 220 MB)
+├── project report.pdf                               # Full academic report
+├── training_curves.png                              # Loss & accuracy plots
 ├── custom_lstm_cell.py                              # CustomLSTMCell + SentimentLSTM model
 ├── preprocess.py                                    # Cleaning, tokenization, vocab, encoding
 ├── data_pipeline.py                                 # End-to-end: CSV → DataLoaders
@@ -140,7 +136,7 @@ Or download manually from [Kaggle — Sentiment140](https://www.kaggle.com/datas
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/sentiment-lstm-from-scratch.git
+git clone https://github.com/Haiqa461/sentiment-lstm-from-scratch.git
 cd sentiment-lstm-from-scratch
 
 # Install dependencies
