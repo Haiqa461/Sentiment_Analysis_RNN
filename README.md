@@ -254,7 +254,6 @@ Demonstrates the regex cleaning, tokenization, and vocabulary building on a smal
 | Recall | 0.79 |
 | F1-score | **0.79** |
 
-![Confusion Matrix](report_assets/confusion_matrix.png)
 
 The model shows balanced performance across both classes with no significant bias toward positive or negative sentiment.
 
@@ -281,7 +280,7 @@ The fused version is numerically stable for large logits where `sigmoid` saturat
 
 ## Report
 
-A full academic-style report is available in [report/report.pdf](report/report.pdf), covering:
+A full academic-style report is available in [project report.pdf], covering:
 
 - Theoretical background on RNNs and the vanishing gradient problem
 - LSTM gate equations and cell state mechanics
