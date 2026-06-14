@@ -1,4 +1,4 @@
-# Sentiment Analysis with Custom LSTM from Scratch
+# Sentiment Analysis with Custom LSTM
 
 A deep learning project that implements a complete Twitter sentiment analysis pipeline using a **custom LSTM cell built from first principles** — no `nn.LSTMCell`, just raw tensor operations. Every component of the pipeline is hand-crafted: the LSTM gate equations, tokenizer, vocabulary builder, padding, and evaluation loop.
 
